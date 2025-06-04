@@ -4,7 +4,7 @@
 You should run docker container at first  
 
     docker-compose up -d  
-And then, visit website http://127.0.0.1:8080/docs, you can see:  
+And then, visit website http://127.0.0.1:8000/docs, you can see:  
 ![api_website](https://github.com/loooooop-png/mineru-api/blob/main/images/api_website.png)
 ### Interface 1  
 You can input a pdf file and Interface 1 will use MinerU automatically to process the pdf.  
