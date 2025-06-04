@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  mineru-api:
+    build: .
+    container_name: mineru-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+      - ./output:/app/output
+      - /data/pdf:/data/pdf
+    environment:
+      - TZ=Asia/Shanghai
+    restart: always
